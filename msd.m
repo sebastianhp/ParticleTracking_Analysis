@@ -52,6 +52,7 @@ splitTracksCell = cell(numTracks,divs+1); % Rows are different runs
                                         % for all the divisions in the run.
                                         % Therefore we assume that the
                                         % timesteps are all the same.
+
 sizes = zeros(1,numTracks);
 
 for i=1:numTracks
